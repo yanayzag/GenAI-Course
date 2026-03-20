@@ -222,6 +222,21 @@ main {
   text-align: center;
 }
 
+.hero-hit-logo {
+  height: 64px;
+  width: auto;
+  margin-bottom: 28px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-hit-logo-white { display: none; }
+body.light-mode .hero-hit-logo-color { display: block; }
+body.light-mode .hero-hit-logo-white { display: none; }
+/* dark mode (default): show white, hide color */
+body:not(.light-mode) .hero-hit-logo-color { display: none; }
+body:not(.light-mode) .hero-hit-logo-white { display: block; }
+
 .hero-kicker {
   display: inline-flex;
   align-items: center;
@@ -942,6 +957,12 @@ footer {
 
 .footer-brand strong {
   color: var(--text-1);
+}
+
+.footer-affiliation {
+  font-size: 13px;
+  color: var(--text-3);
+  margin-top: 2px;
 }
 
 .footer-contact {

@@ -945,10 +945,8 @@ function renderHero(state) {
 
   return `
     <div class="hero">
-      <div class="hero-kicker">
-        <span class="hero-kicker-dot"></span>
-        קורס מקוון
-      </div>
+      <img src="hit-logo-color.png" alt="מכון טכנולוגי חולון" class="hero-hit-logo hero-hit-logo-color">
+      <img src="hit-logo-white.png" alt="מכון טכנולוגי חולון" class="hero-hit-logo hero-hit-logo-white">
       <h1 class="hero-title">${courseData.title}</h1>
       <p class="hero-desc">${courseData.description}</p>
       <div class="hero-stats">
@@ -1020,7 +1018,8 @@ function renderApp() {
 
     <footer>
       <div class="footer-inner">
-        <p class="footer-brand">קורס <strong>בינה המלאכותית היוצרת</strong> · נוצר ע"י <strong>ינאי זגורי</strong></p>
+        <p class="footer-brand">קורס <strong>פיתוח חווית למידה בעזרת בינה מלאכותית יוצרת</strong> · נוצר ע"י <strong>ינאי זגורי</strong></p>
+        <p class="footer-affiliation">המכון הטכנולוגי חולון · הפקולטה לטכנולוגיות למידה · תואר שני</p>
         <p class="footer-contact">📧 <a href="mailto:yanayz@hit.ac.il">yanayz@hit.ac.il</a></p>
         <div class="footer-divider"></div>
         <p class="footer-note">האתר נוצר כחלק מפיתוח תוכן לקורסי בינה מלאכותית</p>
